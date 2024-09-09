@@ -27,7 +27,7 @@ class Settings(BaseSettings):
 
         return "cpu"
 
-    DEFAULT_LANG: str = "English" # Default language we assume files to be in, should be one of the keys in TESSERACT_LANGUAGES
+    DEFAULT_LANG: str = "Chinese" # Default language we assume files to be in, should be one of the keys in TESSERACT_LANGUAGES
 
     SUPPORTED_FILETYPES: Dict = {
         "application/pdf": "pdf",
